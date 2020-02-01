@@ -61,7 +61,7 @@ def option_Tobin():
     time.sleep(1)
     print ("Except there are a lot of defenders on her.")
     time.sleep (1)
-    print ("What's Julie's next move?")
+    print ("What's Tobin's next move?")
     time.sleep (1)
     print ("A. Tobin tried to get out of trouble, however, she couldn't find her teammates. The other team got the ball.")
     print ("B. You're open again! Tobin passes to Megan. ")
@@ -92,9 +92,9 @@ def option_opp():
     time.sleep (1)
     print ("What does Ashlyn do now?")
     time.sleep (1)
-    choice = input(">>> ") 
     print ("A. She boots the ball high into the sky, you keep your eye on the ball as it falls to the field.")
     print ("B. The other team got the ball again.")
+    choice = input(">>> ") 
     if choice in answer_A:
         option_Megan()
     elif choice in answer_B:
